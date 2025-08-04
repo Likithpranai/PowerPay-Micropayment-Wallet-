@@ -118,7 +118,7 @@ fn process_init_channel(
         &system_instruction::create_account(
             payer_account.key,
             payment_channel_account.key,
-            rent_lamports + amount, // rent + initial funds
+            rent_lamports + amount,
             PAYMENT_CHANNEL_SIZE as u64,
             program_id,
         ),

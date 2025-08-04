@@ -1,0 +1,141 @@
+/* PowerPay - App.css */
+
+/* General Styling */
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.app-container {
+  min-height: 100vh;
+}
+
+/* Text and Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+.text-brand {
+  color: #6942ef;
+}
+
+/* Cards */
+.card {
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.card-header {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-weight: 600;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 0.375rem;
+  padding: 0.5rem 1rem;
+}
+
+.btn-primary {
+  background-color: #6942ef;
+  border-color: #6942ef;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #5732d9;
+  border-color: #5732d9;
+}
+
+.btn-outline-primary {
+  color: #6942ef;
+  border-color: #6942ef;
+}
+
+.btn-outline-primary:hover {
+  background-color: #6942ef;
+  border-color: #6942ef;
+}
+
+/* Custom Components */
+.wallet-card {
+  transition: all 0.2s ease-in-out;
+}
+
+.wallet-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Header & Navigation */
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* Dashboard */
+.dashboard .card {
+  height: 100%;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Channel Details */
+.payment-progress {
+  height: 0.5rem;
+}
+
+/* Payment Channels */
+.channel-item {
+  transition: background-color 0.15s ease-in-out;
+}
+
+.channel-item:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+/* Forms */
+.form-control:focus {
+  border-color: #6942ef;
+  box-shadow: 0 0 0 0.25rem rgba(105, 66, 239, 0.25);
+}
+
+/* Custom Footer */
+footer {
+  margin-top: auto;
+}
+
+/* Wallet Address Display */
+.address-text {
+  font-family: monospace;
+  background: #f1f3f5;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  overflow-wrap: break-word;
+}
+
+/* Probability Stats */
+.prob-explainer {
+  background-color: #f8f9fa;
+  border-left: 4px solid #6942ef;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
