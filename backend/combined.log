@@ -1,0 +1,23 @@
+{"level":"info","message":"Server running on port 3000","service":"powerpay-backend","timestamp":"2025-08-04T08:09:16.127Z"}
+{"level":"info","message":"GET /api/mock/channel/non-existent","service":"powerpay-backend","timestamp":"2025-08-04T08:09:49.805Z"}
+{"level":"info","message":"POST /api/mock/channel/create","service":"powerpay-backend","timestamp":"2025-08-04T08:09:49.817Z"}
+{"level":"info","message":"POST /api/mock/channel/mock-1754294989817-7460/micropayment","service":"powerpay-backend","timestamp":"2025-08-04T08:09:49.819Z"}
+{"level":"info","message":"POST /api/mock/channel/mock-1754294989817-7460/process","service":"powerpay-backend","timestamp":"2025-08-04T08:09:49.821Z"}
+{"level":"info","message":"GET /api/mock/channel/mock-1754294989817-7460","service":"powerpay-backend","timestamp":"2025-08-04T08:09:49.823Z"}
+{"level":"info","message":"POST /api/mock/channel/mock-1754294989817-7460/micropayment","service":"powerpay-backend","timestamp":"2025-08-04T08:09:49.825Z"}
+{"level":"info","message":"POST /api/mock/channel/mock-1754294989817-7460/process","service":"powerpay-backend","timestamp":"2025-08-04T08:09:49.826Z"}
+{"level":"info","message":"GET /api/mock/channel/mock-1754294989817-7460","service":"powerpay-backend","timestamp":"2025-08-04T08:09:49.828Z"}
+{"level":"info","message":"POST /api/mock/channel/mock-1754294989817-7460/micropayment","service":"powerpay-backend","timestamp":"2025-08-04T08:09:49.831Z"}
+{"level":"info","message":"POST /api/mock/channel/mock-1754294989817-7460/test-distribution","service":"powerpay-backend","timestamp":"2025-08-04T08:09:49.833Z"}
+{"level":"info","message":"GET /api/mock/channel/mock-1754294989817-7460","service":"powerpay-backend","timestamp":"2025-08-04T08:09:49.835Z"}
+{"level":"info","message":"GET /api/mock/channel/non-existent","service":"powerpay-backend","timestamp":"2025-08-04T08:11:06.124Z"}
+{"level":"info","message":"POST /api/mock/channel/create","service":"powerpay-backend","timestamp":"2025-08-04T08:11:06.129Z"}
+{"level":"info","message":"POST /api/mock/channel/mock-1754295066129-3640/micropayment","service":"powerpay-backend","timestamp":"2025-08-04T08:11:06.131Z"}
+{"level":"info","message":"POST /api/mock/channel/mock-1754295066129-3640/process","service":"powerpay-backend","timestamp":"2025-08-04T08:11:06.132Z"}
+{"level":"info","message":"GET /api/mock/channel/mock-1754295066129-3640","service":"powerpay-backend","timestamp":"2025-08-04T08:11:06.134Z"}
+{"level":"info","message":"POST /api/mock/channel/mock-1754295066129-3640/micropayment","service":"powerpay-backend","timestamp":"2025-08-04T08:11:06.135Z"}
+{"level":"info","message":"POST /api/mock/channel/mock-1754295066129-3640/process","service":"powerpay-backend","timestamp":"2025-08-04T08:11:06.137Z"}
+{"level":"info","message":"GET /api/mock/channel/mock-1754295066129-3640","service":"powerpay-backend","timestamp":"2025-08-04T08:11:06.138Z"}
+{"level":"info","message":"POST /api/mock/channel/mock-1754295066129-3640/micropayment","service":"powerpay-backend","timestamp":"2025-08-04T08:11:06.140Z"}
+{"level":"info","message":"POST /api/mock/channel/mock-1754295066129-3640/test-distribution","service":"powerpay-backend","timestamp":"2025-08-04T08:11:06.142Z"}
+{"level":"info","message":"GET /api/mock/channel/mock-1754295066129-3640","service":"powerpay-backend","timestamp":"2025-08-04T08:11:06.143Z"}

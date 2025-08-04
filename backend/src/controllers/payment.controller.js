@@ -20,8 +20,14 @@ const connection = new Connection(
 );
 
 // PowerPay program ID (this would be the actual deployed program ID)
-// For now we're using a placeholder ID
-const PROGRAM_ID = new PublicKey(process.env.POWERPAY_PROGRAM_ID || 'PowerPayXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
+// For now we're using a placeholder ID - using a valid Solana public key format for development
+let PROGRAM_ID;
+try {
+  PROGRAM_ID = new PublicKey(process.env.POWERPAY_PROGRAM_ID || '11111111111111111111111111111111');
+} catch (error) {
+  console.warn('Using fallback program ID due to invalid format');
+  PROGRAM_ID = new PublicKey('11111111111111111111111111111111'); // System program as fallback
+}
 
 // Wallet directory for keypair storage
 const WALLET_DIR = path.join(__dirname, '../../wallet-store');

@@ -1,6 +1,7 @@
 const express = require('express');
 const walletController = require('../controllers/wallet.controller');
 const paymentController = require('../controllers/payment.controller');
+const mockController = require('../controllers/mock.controller');
 
 const router = express.Router();
 
@@ -15,5 +16,12 @@ router.post('/channel/:channelId/micropayment', paymentController.addMicropaymen
 router.post('/channel/:channelId/process', paymentController.processProbabilisticPayment);
 router.post('/channel/:channelId/close', paymentController.closeChannel);
 router.get('/channel/:channelId', paymentController.getChannelDetails);
+
+// Mock payment routes for testing
+router.post('/mock/channel/create', mockController.createMockChannel);
+router.post('/mock/channel/:channelId/micropayment', mockController.addMockMicropaymentIntent);
+router.post('/mock/channel/:channelId/process', mockController.processMockProbabilisticPayment);
+router.post('/mock/channel/:channelId/test-distribution', mockController.testProbabilisticPaymentDistribution);
+router.get('/mock/channel/:channelId', mockController.getMockChannelDetails);
 
 module.exports = router;
